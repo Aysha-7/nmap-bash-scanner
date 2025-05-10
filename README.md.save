@@ -1,0 +1,16 @@
+# Nmap Bash Scanner
+
+## Overview
+This tool automates basic network reconnaissance tasks using Nmap and Bash scripting.
+
+## Features
+- Accepts target IP or domain
+- Performs:
+  - Ping scan
+  - Port scan
+  - OS & service version detection
+- Saves output to a structured `results/` directory
+
+## Usage
+```bash
+./scan.sh
